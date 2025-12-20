@@ -71,7 +71,7 @@ print(omega - 3)       # ω - ω minus anything is ω
 # Since 3 > 1, replace 3 with ω: [1,0,ω]
 ```
 
-## 🔄 **Complete Workflow Example**
+##  **Complete Workflow Example**
 
 Let's trace through a simple example:
 
@@ -118,7 +118,7 @@ Root: [A=1, B=0]
 ### **Step 5: Algorithm Continues**
 The algorithm repeats for each "new" marking until all are processed as "old" or "dead-end."
 
-## 🎨 **Visual Representation of Interactions**
+##  **Visual Representation of Interactions**
 
 ### **Data Flow:**
 ```
@@ -164,7 +164,7 @@ PetriNetGUI (Displays results)
    └── GUI._display_tree()
 ```
 
-## 🎬 **Real Example Walkthrough**
+##  **Real Example Walkthrough**
 
 ### **Scenario: Unbounded Net**
 ```
@@ -209,3 +209,4 @@ Step 4 becomes: [P0=1, P1=0, P2=ω]
 
 
 This architecture makes the complex Karp-Miller algorithm accessible and maintainable!
+
